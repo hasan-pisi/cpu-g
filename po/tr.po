@@ -55,7 +55,7 @@ msgstr "Bayrak"
 
 #: src/cpug.py:163
 msgid "Bogomips"
-msgstr ""
+msgstr "sahte MIPS"
 
 #: src/cpug.py:174
 msgid "Width"
@@ -99,7 +99,7 @@ msgstr "Kart"
 
 #: src/cpug.py:290
 msgid "Bios"
-msgstr ""
+msgstr "Bios"
 
 #: src/cpug.py:305
 msgid "Version"
@@ -135,6 +135,9 @@ msgid ""
 "processes that request more memory in bytes; this is calculated by summing "
 "different memory values (Mb)"
 msgstr ""
+"Anında verilebilecek gerçek kullanılabilir bellek miktarı"
+"bayt cinsinden daha fazla bellek isteyen işlemler; Bu, toplanarak hesaplanır "
+"farklı bellek değerleri (Mb)"
 
 #: src/cpug.py:368 src/cpug.py:478
 msgid "Used"
@@ -145,6 +148,8 @@ msgid ""
 "Memory used, calculated differently depending on the platform and designed "
 "for informational purposes only (Mb)"
 msgstr ""
+"Kullanılan, platforma göre farklı hesaplanan ve tasarlanan bellek "
+"yalnızca bilgilendirme amaçlıdır (Mb)"
 
 #: src/cpug.py:389 src/cpug.py:498
 msgid "Free"
@@ -160,7 +165,7 @@ msgstr "Etkin"
 
 #: src/cpug.py:417
 msgid "Memory currently in use or very recently used, and so it is in RAM (Mb)"
-msgstr ""
+msgstr "Bellek şu anda kullanımda veya çok yakın zamanda kullanılıyor ve bu nedenle ram'de (Mb)"
 
 #: src/cpug.py:423
 msgid "Inactive"
@@ -176,7 +181,7 @@ msgstr "Tamponlar"
 
 #: src/cpug.py:443
 msgid "Ccache for things like file system metadata. (Mb)"
-msgstr ""
+msgstr "Dosya sistemi meta verileri gibi şeyler için önbellek. (Mb)"
 
 #: src/cpug.py:449
 msgid "Cached"
@@ -184,7 +189,7 @@ msgstr "Önbellekte"
 
 #: src/cpug.py:456
 msgid "Cache for various things (Mb)"
-msgstr ""
+msgstr "Çeşitli şeyler için önbellek (Mb)"
 
 #: src/cpug.py:461
 msgid "Swap"
@@ -192,7 +197,7 @@ msgstr "Takas"
 
 #: src/cpug.py:472
 msgid "Total physical memory available in Mb."
-msgstr ""
+msgstr "Mb cinsinden kullanılabilen toplam fiziksel bellek."
 
 #: src/cpug.py:485
 msgid "Used swap memory in Mb"
@@ -208,15 +213,15 @@ msgstr ""
 
 #: src/cpug.py:525
 msgid "The number of Mb the system has swapped in from disk (cumulative)"
-msgstr ""
+msgstr "Sistemin diskten değiştirdiği Mb sayısı (birikimli)"
 
 #: src/cpug.py:531
 msgid "Sout"
-msgstr ""
+msgstr "Tuz"
 
 #: src/cpug.py:538
 msgid "The number of Mb the system has swapped out from disk (cumulative)"
-msgstr ""
+msgstr "Sistemin diskten takas ettiği Mb sayısı (kümülatif)"
 
 #: src/cpug.py:547
 msgid "System"
@@ -320,15 +325,15 @@ msgstr "Kapasite seviyesi"
 
 #: src/cpug.py:841
 msgid "Voltage now"
-msgstr ""
+msgstr "Şimdi voltaj"
 
 #: src/cpug.py:853
 msgid "Minimum voltage design"
-msgstr ""
+msgstr "Minimum voltaj tasarımı"
 
 #: src/cpug.py:865
 msgid "Charge now"
-msgstr ""
+msgstr "Şimdi şarj"
 
 #: src/cpug.py:877
 msgid "Charge full"
@@ -336,7 +341,7 @@ msgstr "Şarj dolu"
 
 #: src/cpug.py:889
 msgid "Charge full design"
-msgstr ""
+msgstr "Tam tasarımı şarj edin"
 
 #: src/cpug.py:901
 msgid "Current now"
@@ -352,26 +357,26 @@ msgstr "Hakkında"
 
 #: src/cpug.py:1057
 msgid " %"
-msgstr ""
+msgstr " %"
 
 #: src/cpug.py:1067 src/cpug.py:1073
 msgid " V"
-msgstr ""
+msgstr " V"
 
 #: src/cpug.py:1079 src/cpug.py:1085 src/cpug.py:1091
 msgid " Ah"
-msgstr ""
+msgstr " Ah"
 
 #: src/cpug.py:1097
 msgid " A"
-msgstr ""
+msgstr " A"
 
 #: src/cpug.py:1107 src/cpug.py:1109 src/cpug.py:1113 src/cpug.py:1116
 #: src/cpug.py:1119 src/cpug.py:1121 src/cpug.py:1123 src/cpug.py:1125
 #: src/cpug.py:1128 src/cpug.py:1132 src/cpug.py:1135 src/cpug.py:1138
 #: src/cpug.py:1140 src/cpug.py:1270 src/cpug.py:1283 src/cpug.py:1304
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: src/cpug.py:1206
 msgid "Device"
@@ -404,19 +409,19 @@ msgstr "Boş alan"
 #: src/upower.py:98 src/upower.py:115 src/upower.py:159 src/upower.py:172
 #: src/upower.py:180 src/upower.py:193
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
 #: src/upower.py:100
 msgid "Line Power"
-msgstr ""
+msgstr "Hat Gücü"
 
 #: src/upower.py:104
 msgid "Ups"
-msgstr ""
+msgstr "Güç kaynağı"
 
 #: src/upower.py:106
 msgid "Monitor"
-msgstr ""
+msgstr "Monitör"
 
 #: src/upower.py:108
 msgid "Mouse"
@@ -428,7 +433,7 @@ msgstr "Klavye"
 
 #: src/upower.py:112
 msgid "Pda"
-msgstr ""
+msgstr "Pda"
 
 #: src/upower.py:114
 msgid "Phone"
@@ -444,46 +449,46 @@ msgstr "Boşaltılıyor"
 
 #: src/upower.py:165
 msgid "Empty"
-msgstr ""
+msgstr "Boş"
 
 #: src/upower.py:167
 msgid "Fully charged"
-msgstr ""
+msgstr "Tam şarj"
 
 #: src/upower.py:169
 msgid "Pending charge"
-msgstr ""
+msgstr "Bekleyen Şarj"
 
 #: src/upower.py:171
 msgid "Pending discharge"
-msgstr ""
+msgstr "Bekleyen deşarj"
 
 #: src/upower.py:182
 msgid "Lithium ion"
-msgstr ""
+msgstr "lityum iyon"
 
 #: src/upower.py:184
 msgid "Lithium polymer"
-msgstr ""
+msgstr "Lityum polimer"
 
 #: src/upower.py:186
 msgid "Lithium iron phosphate"
-msgstr ""
+msgstr "lityum demir fosfat"
 
 #: src/upower.py:188
 msgid "Lead acid"
-msgstr ""
+msgstr "kurşun asit"
 
 #: src/upower.py:190
 msgid "Nickel cadmium"
-msgstr ""
+msgstr "Nikel kadmiyum"
 
 #: src/upower.py:192
 msgid "Nickel metal hydride"
-msgstr ""
+msgstr "Nikel metal hidrür"
 
 #: src/investigator.py:55 src/investigator.py:62 src/investigator.py:294
 #: src/investigator.py:315 src/investigator.py:323 src/investigator.py:407
 #: src/investigator.py:411 src/investigator.py:415 src/investigator.py:419
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
